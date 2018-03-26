@@ -32,7 +32,7 @@ Top 3%： 11/424 。
 但是似乎多了些 Overfitting 。因此 NN 的模型是將 Training Set 每次拿 4/5 訓練，總共訓練出五個模型後，取平均當作最後的模型。
 透過這樣簡單的 Ensemble 降低 Variance 。
 
-LightGBM*0.6 + NN*0.4 為送出的結果。
+LightGBM * 0.6 + NN * 0.4 為送出的結果。
 
 完整從產生特徵到訓練的檔案為 tm-competition-1.ipynb 。
 
